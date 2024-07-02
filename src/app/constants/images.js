@@ -1,5 +1,5 @@
 const images = {
-    lifestyle: require('../assets/LifeStyle.png'),
+    lifestyle: require('../assets/Lifestyle.png'),
     logo: require('../assets/Logo.png'),
     mask: require('../assets/Mask.png'),
     blanca: require('../assets/Blanca.png'),
