@@ -3,11 +3,8 @@ import Image from 'next/image'
 import React from 'react';
 import images from '../constants/images';
 import Cards from './Cards';
-import LocomotiveScroll from 'locomotive-scroll';
 
 const Banner = () => {
-   
-   const locomotiveScroll = new LocomotiveScroll();
 
   return (
     <>
