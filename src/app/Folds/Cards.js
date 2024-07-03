@@ -10,10 +10,10 @@ const Cards = () => {
 
   return (
     <>
-      <h1 className="text-[3vw] leading-tight font-bold text-center my-10">
+      <h1 className="text-[3vw] leading-tight font-bold text-center my-6 sm:my-10">
         Explore Our Range Of Products.
       </h1>
-      <div className="grid grid-cols-2 gap-7 mx-10 xl:w-9/12 xl:mx-auto">
+      <div className="grid grid-cols-2 gap-3 sm:gap-7 mx-2 sm:mx-10 xl:w-9/12 xl:mx-auto">
         <ProductCard
           image={small}
           title="Bravo Small"
