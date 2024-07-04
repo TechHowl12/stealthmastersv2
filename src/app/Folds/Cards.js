@@ -10,7 +10,7 @@ const Cards = () => {
 
   return (
     <>
-      <h1 className="text-[3vw] leading-tight font-bold text-center my-6 sm:my-10">
+      <h1 className="text-[2.5vw] leading-tight font-bold text-center my-6 sm:mt-20 sm:mb-10">
         Explore Our Range Of Products.
       </h1>
       <div className="grid grid-cols-2 gap-3 sm:gap-7 mx-2 sm:mx-10 xl:w-9/12 xl:mx-auto">
@@ -20,7 +20,7 @@ const Cards = () => {
           price="$199"
           description="Fits One Handgun"
           setCaseColor={setSmall}
-          colors={{ black: CardImages.smallBlack, brown: CardImages.smallBrown, white: CardImages.smallWhite }}
+          colors={{ black: CardImages.smallBlack, "#926641": CardImages.smallBrown, white: CardImages.smallWhite }}
         />
         <ProductCard
           image={medium}
@@ -28,7 +28,7 @@ const Cards = () => {
           price="$279"
           description="Fits Two Handguns"
           setCaseColor={setMedium}
-          colors={{ black: CardImages.mediumBlack, brown: CardImages.mediumBrown, white: CardImages.mediumWhite }}
+          colors={{ black: CardImages.mediumBlack, "#926641": CardImages.mediumBrown, white: CardImages.mediumWhite }}
         />
         <ProductCard
           image={large}
@@ -36,7 +36,7 @@ const Cards = () => {
           price="$379"
           description="Fits Two Handguns & One Assault Rifle"
           setCaseColor={setLarge}
-          colors={{ black: CardImages.largeBlack, brown: CardImages.largeBrown, white: CardImages.largeWhite }}
+          colors={{ black: CardImages.largeBlack, "#926641": CardImages.largeBrown, white: CardImages.largeWhite }}
         />
         <ProductCard
           image={CardImages.yankeeLarge}
