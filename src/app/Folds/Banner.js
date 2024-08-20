@@ -10,7 +10,11 @@ const Banner = () => {
     <>
     <nav className='flex justify-between items-center py-4 px-2 sm:px-10 md:py-6'>
          <Image alt='logo' src={images.logo} className='w-36 sm:w-56 lg:w-64' priority />
-         <button className='border-2 border-slate-300 rounded-md sm:rounded-lg py-1 sm:py-2 px-3 text-[9px] sm:text-xs md:text-sm font-semibold sm:font-bold hover:bg-black hover:text-white transition-colors'>Unlock Your Warranty Here</button>
+         <a href='https://warranty.stealth-masters.com/' target='_blank' rel='noopener noreferrer'>
+    <button className='border-2 border-slate-300 rounded-md sm:rounded-lg py-1 sm:py-2 px-3 text-[9px] sm:text-xs md:text-sm font-semibold sm:font-bold hover:bg-black hover:text-white transition-colors'>
+      Unlock Your Warranty Here
+    </button>
+  </a>
       </nav>
       <section className='w-full flex px-2 mt-5 sm:mt-0 sm:px-10 justify-center items-center'>
             <div className='w-2/12 sm:pl-0 md:pl-[0.5%] lg:pl-[2.5%] xl:pl-[3.5%] 2xl:pl-[5%] sm:mb-20 mb-8'>
